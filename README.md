@@ -17,19 +17,19 @@ O cliente será uma empresa que necessite de uma solução de software personali
 <p>
 Os alunos deverão detalhar e abordar os seguintes tópicos no desenvolvimento do projeto:
 
-- <b>Requisitos funcionais e não funcionais:</b> definição clara das funcionalidades esperadas e das restrições técnicas ou operacionais.
-- <b>Modelagem do banco de dados:</b> estruturação lógica e física dos dados necessários para o funcionamento do sistema.
-- <b>Desenvolvimento Fullstack:</b> criação de uma aplicação completa, abrangendo frontend e backend.
-- <b>Hospedagem do website:</b> implantação do sistema em um ambiente online funcional e acessível.
+- **Requisitos funcionais e não funcionais:** definição clara das funcionalidades esperadas e das restrições técnicas ou operacionais.
+- **Modelagem do banco de dados:** estruturação lógica e física dos dados necessários para o funcionamento do sistema.
+- **Desenvolvimento Fullstack:** criação de uma aplicação completa, abrangendo frontend e backend.
+- **Hospedagem do website:** implantação do sistema em um ambiente online funcional e acessível.
 
 ## Das Tecnologias.
-- <b>HTML5:</b> Estrutura das páginas.
-- <b>CSS3:</b> Estilização responsiva e moderna.
-- <b>JavaScript:</b> Interatividade e usabilidade dinâmica.
-- <b>PHP:</b> Backend robusto para lógica e integração com banco de dados.
-- <b>MySQL:</b> Gerenciamento de dados de clientes, pets e agendamentos.
-- <b>Framework:</b> FullCalendar v6.1.9.
-- <b>API:</b> Google Calendar
+- **HTML5:** Estrutura das páginas.
+- **CSS3:** Estilização responsiva e moderna.
+- **JavaScript:** Interatividade e usabilidade dinâmica.
+- **PHP:** Backend robusto para lógica e integração com banco de dados.
+- **MySQL:** Gerenciamento de dados de clientes, pets e agendamentos.
+- **Framework:** FullCalendar v6.1.9.
+- **API:** Google Calendar
 
 ### O sistema apresenta as seguintes funcionalidades:
 - Apresentação dos serviços oferecidos.
@@ -61,6 +61,49 @@ além de competências interpessoais, como trabalho em equipe e gestão de proje
 
 ## Do Deploy
 
+O primeiro passo, o sistema precisa roda em algum servidor local com Apache, MySQL, PHP.
+
+O XAMPP é uma boa opção e vai facilitar muito o processo já que ele conta com todas as funcionalidades necessarias.
+
+O XAMPP pode ser baixado através do link: https://www.apachefriends.org/pt_br/index.html
+
+Faça a instalação de acordo com seu sistema operacional. Após a instalação a pasta raiz do XAMPP deve ter a seguinte estrutura:
+
+| Diretório       | Tipo   | Data       | Hora   |
+|-----------------|--------|------------|--------|
+| **xampp**       | DIR    | 25/11/2024 | 20:18  |
+| ├── anonymous   | DIR    | 25/11/2024 | 20:18  |
+| ├── apache      | DIR    | 25/11/2024 | 20:19  |
+| ├── cgi-bin	  | DIR    | 25/11/2024 | 20:24  |
+| ├── contrib	  | DIR    | 25/11/2024 | 20:18  |
+| ├── **`htdocs`** 	  | DIR    | 25/11/2024 | 20:18  |
+| ├── img	      | DIR    | 25/11/2024 | 20:18  |
+| ├── FileZillaFTP| DIR    | 25/11/2024 | 20:24  |
+| ├── install     | DIR    | 25/11/2024 | 20:24  |
+| ├── licenses    | DIR    | 25/11/2024 | 20:18  |
+| ├── locale      | DIR    | 25/11/2024 | 20:18  |
+| ├── mailoutput  | DIR    | 25/11/2024 | 20:18  |
+| ├── mailtodisk  | DIR    | 25/11/2024 | 20:19  |
+| ├── MercuryMail | DIR    | 25/11/2024 | 20:24  |
+| ├── mysql       | DIR    | 25/11/2024 | 20:19  |
+| ├── perl        | DIR    | 25/11/2024 | 20:21  |
+| ├── php         | DIR    | 25/11/2024 | 20:24  |
+| ├── phpMyAdmin  | DIR    | 25/11/2024 | 20:24  |
+| ├── sendmail    | DIR    | 25/11/2024 | 20:24  |
+| ├── src         | DIR    | 25/11/2024 | 20:18  |
+| ├── tmp         | DIR    | 25/11/2024 | 20:25  |
+| ├── tomcat      | DIR    | 25/11/2024 | 20:19  |
+| ├── webalizer   | DIR    | 25/11/2024 | 20:24  |
+| └── webdav      | DIR    | 25/11/2024 | 20:19  |
+<p>
+O XAMPP roda os projetos que estão dentro da pasta **`htdocs`**
+<p>
+
+A pasta do nosso projeto chama `tiodupetservice_web`.
+<p>
+
+No Windows o projeto fica no seguinte endereço: `C:\xampp\htdocs\tiodupetservice_web`
+<p>
 
 Estrutura do Projeto
 Contribuição
