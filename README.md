@@ -1,41 +1,42 @@
 # Trabalho de Graduação FATEC
+
 Projeto de Graduação em Gestão da Tecnologia da Informação da Faculdade de Tecnologia de Campinas, elaborado sob orientação do Prof. Humberto Celeste Innarelli.
 
-FERREIRA, E. O., MORGAN, G. S., FORESTO, J. L., Projetos de Tecnologia da Informação. Trabalho em grupo (Gestão da Tecnologia da Informação) - Centro Paula Souza - Faculdade de Tecnologia de Campinas, 2024.
+FERREIRA, E. O., FORESTO, J. L., MORGAN, G. S., Projeto de Tecnologia da Informação. Trabalho em grupo (Gestão da Tecnologia da Informação) - Centro Paula Souza - Faculdade de Tecnologia de Campinas, 2024.
 
-## Do objetivo.
+## Do Objetivo.
 
-A FATEC incentiva os alunos a desenvolverem solucões para problemas reais das empresas da região. A solução desenvolvida é um website para servir como  ferramenta de marketing digital para atrair novos clientes e consolidar e consolidar a preseça digital da marca da empresa.
+A FATEC incentiva os alunos a desenvolverem solucões para problemas reais das empresas da região. A solução desenvolvida é um website para servir como  ferramenta de marketing digital para atrair novos clientes e consolidar a preseça digital da empresa.
+<p>
+O sistema deve permitir o gerenciamento simples e intuitivo dos serviços solicitados pelos clientes, enviando notificações por e-mail para auxiliá-los na organização de sua agenda.
 
+## Das Tecnologias.
+- <b>HTML5:</b> Estrutura das páginas.
+- <b>CSS3:</b> Estilização responsiva e moderna.
+- <b>JavaScript:</b> Interatividade e usabilidade dinâmica.
+- <b>PHP:</b> Backend robusto para lógica e integração com banco de dados.
+- <b>MySQL:</b> Gerenciamento de dados de clientes, pets e agendamentos.
+- <b>Framework:</b> FullCalendar v6.1.9.
+- <b>API:</b> Google Calendar
 
+### O sistema apresenta as seguintes funcionalidades:
+- Apresentação dos serviços oferecidos.
+- Solicitação de agendamentos para serviços.
+- Avaliação de serviços.
+- Cadastro de clientes e pets.
+- Sistema de Agendamento.
+- Conexão com o Google Calendar.
 
-  com as seguintes funcionalidades principais:
+## Da Solução
+O sistema resolve o problema da falta de presença digital e organização operacional em empresas que prestam serviços para pets. Ele funciona como uma ferramenta de marketing digital para atrair novos clientes e consolidar a presença online da empresa, ao mesmo tempo em que melhora a eficiência do gerenciamento de agendamentos e serviços. Além disso, facilita a comunicação com os clientes, enviando notificações por e-mail para auxiliá-los na organização de suas agendas, enquanto integra com o Google Calendar para sincronizar compromissos de forma prática e acessível.
 
-Apresentação dos serviços oferecidos.
-Cadastro de clientes e pets.
-Solicitação de agendamentos para serviços.
-Seção informativa com dicas de cuidados para pets.
-F
-
-Objetivo
-Proporcionar uma experiência personalizada para tutores.
-Ampliar o alcance da marca no mercado online.
-Facilitar a gestão de serviços e o contato com os clientes.
-
-Tecnologias Utilizadas
-HTML5: Estrutura das páginas.
-CSS3: Estilização responsiva e moderna.
-JavaScript: Interatividade e usabilidade dinâmica.
-PHP: Backend robusto para lógica e integração com banco de dados.
-MySQL: Gerenciamento de dados de clientes, pets e agendamentos.
-
-
-
-Qual é o objetivo principal?
-Qual problema ele resolve?
-Por que você o escolheu para o trabalho final de graduação?
-Exemplo:
-"O projeto [Nome do Projeto] é uma aplicação web desenvolvida como Trabalho de Conclusão de Curso, com o objetivo de [descrever o propósito]. Utilizando HTML, CSS, PHP e JavaScript, o sistema oferece uma interface amigável e funcionalidades práticas para [explicação breve]."
+## Da Justificativa
+O projeto Tio Du Pet Service Web é uma aplicação web desenvolvida
+ como Trabalho de Conclusão de Curso, 
+ com o objetivo de [descrever o propósito]. 
+ Utilizando HTML, CSS, PHP e JavaScript, 
+ o sistema oferece uma interface amigável e 
+ funcionalidades práticas para [explicação breve]."
 
 Sumário
 Funcionalidades
@@ -123,5 +124,3 @@ bash
 Copiar código
 git push origin feature/SuaFuncionalidade
 Abra um Pull Request.
-Licença
-Este projeto está sob a licença MIT.
