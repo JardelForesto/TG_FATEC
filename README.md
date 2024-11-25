@@ -1,14 +1,26 @@
 # Trabalho de Graduação FATEC
 
-Projeto de Graduação em Gestão da Tecnologia da Informação da Faculdade de Tecnologia de Campinas, elaborado sob orientação do Prof. Humberto Celeste Innarelli.
+Projeto de Graduação em Gestão da Tecnologia da Informação da Faculdade de Tecnologia de Campinas, 
+elaborado sob orientação do Prof. Humberto Celeste Innarelli.
 
-FERREIRA, E. O., FORESTO, J. L., MORGAN, G. S., Projeto de Tecnologia da Informação. Trabalho em grupo (Gestão da Tecnologia da Informação) - Centro Paula Souza - Faculdade de Tecnologia de Campinas, 2024.
+FERREIRA, E. O., FORESTO, J. L., MORGAN, G. S., Projeto de Tecnologia da Informação. Trabalho em grupo 
+(Gestão da Tecnologia da Informação) - Centro Paula Souza - Faculdade de Tecnologia de Campinas, 2024.
 
 ## Do Objetivo.
 
-A FATEC incentiva os alunos a desenvolverem solucões para problemas reais das empresas da região. A solução desenvolvida é um website para servir como  ferramenta de marketing digital para atrair novos clientes e consolidar a preseça digital da empresa.
+A FATEC incentiva os alunos a desenvolverem solucões para problemas reais das empresas da região.
+ A solução desenvolvida é um website para servir como  ferramenta de marketing digital para atrair 
+ novos clientes e consolidar a preseça digital da empresa.
 <p>
-O sistema deve permitir o gerenciamento simples e intuitivo dos serviços solicitados pelos clientes, enviando notificações por e-mail para auxiliá-los na organização de sua agenda.
+O escopo do projeto abrange a criação de uma empresa fictícia especializada em desenvolvimento de software e consultoria. 
+O cliente será uma empresa que necessite de uma solução de software personalizada, possibilitando que os alunos desenvolvam e implementem a solução proposta.
+<p>
+Os alunos deverão detalhar e abordar os seguintes tópicos no desenvolvimento do projeto:
+
+- <b>Requisitos funcionais e não funcionais:</b> definição clara das funcionalidades esperadas e das restrições técnicas ou operacionais.
+- <b>Modelagem do banco de dados:</b> estruturação lógica e física dos dados necessários para o funcionamento do sistema.
+- <b>Desenvolvimento Fullstack:</b> criação de uma aplicação completa, abrangendo frontend e backend.
+- <b>Hospedagem do website:</b> implantação do sistema em um ambiente online funcional e acessível.
 
 ## Das Tecnologias.
 - <b>HTML5:</b> Estrutura das páginas.
@@ -23,42 +35,40 @@ O sistema deve permitir o gerenciamento simples e intuitivo dos serviços solici
 - Apresentação dos serviços oferecidos.
 - Solicitação de agendamentos para serviços.
 - Avaliação de serviços.
-- Cadastro de clientes e pets.
+- Sistema de login com autenticação segura
+- Cadastro de Entidades, Clientes, Pets, Veterinários, Serviços, Usuários.
 - Sistema de Agendamento.
 - Conexão com o Google Calendar.
+- Relatórios dinâmicos gerados em tempo real
 
 ## Da Solução
-O sistema resolve o problema da falta de presença digital e organização operacional em empresas que prestam serviços para pets. Ele funciona como uma ferramenta de marketing digital para atrair novos clientes e consolidar a presença online da empresa, ao mesmo tempo em que melhora a eficiência do gerenciamento de agendamentos e serviços. Além disso, facilita a comunicação com os clientes, enviando notificações por e-mail para auxiliá-los na organização de suas agendas, enquanto integra com o Google Calendar para sincronizar compromissos de forma prática e acessível.
+O sistema resolve o problema da falta de presença digital e organização operacional em empresas que prestam serviços para pets. 
+Tal sistema funciona como uma ferramenta de marketing digital para atrair novos clientes e consolidar a presença online da empresa, 
+ao mesmo tempo em que melhora a eficiência do gerenciamento de agendamentos e serviços. 
+Além disso, facilita a comunicação com os clientes, enviando notificações por e-mail para auxiliá-los na organização de suas agendas, 
+enquanto integra com o Google Calendar para sincronizar compromissos de forma prática e acessível.
 
 ## Da Justificativa
-O projeto Tio Du Pet Service Web é uma aplicação web desenvolvida
- como Trabalho de Conclusão de Curso, 
- com o objetivo de [descrever o propósito]. 
- Utilizando HTML, CSS, PHP e JavaScript, 
- o sistema oferece uma interface amigável e 
- funcionalidades práticas para [explicação breve]."
+O projeto Tio Du Pet Service Web é uma aplicação web desenvolvida como Trabalho de Conclusão de Curso,
+ com o objetivo de integrar conhecimentos teóricos e práticos adquiridos ao longo da graduação. 
+ Ele busca simular um ambiente corporativo real, onde os alunos atuam na criação de uma solução tecnológica 
+ completa para atender às necessidades de um cliente fictício, neste caso, uma plataforma voltada para serviços pet.
 
-Sumário
-Funcionalidades
-Tecnologias Utilizadas
-Como Executar o Projeto
+O propósito principal é desenvolver uma aplicação funcional que atenda aos requisitos específicos do cliente, 
+enquanto os alunos aprimoram habilidades técnicas, como desenvolvimento fullstack, modelagem de banco de dados e hospedagem, 
+além de competências interpessoais, como trabalho em equipe e gestão de projetos. 
+
+
+## Do Deploy
+
+
 Estrutura do Projeto
 Contribuição
 Licença
 Funcionalidades
 Liste as principais funcionalidades do sistema:
 
- Cadastro de [Entidades, por exemplo, Clientes, Pets, etc.]
- Sistema de login com autenticação segura
- Relatórios dinâmicos gerados em tempo real
- [Outras funcionalidades importantes]
-Tecnologias Utilizadas
-As principais tecnologias empregadas no desenvolvimento do projeto:
 
-HTML5 para estruturação das páginas
-CSS3 para estilização responsiva
-PHP para lógica de backend e conexão com o banco de dados
-JavaScript para interatividade e dinamicidade
 Como Executar o Projeto
 Instruções para configurar e executar o projeto localmente:
 
