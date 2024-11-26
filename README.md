@@ -61,6 +61,8 @@ além de competências interpessoais, como trabalho em equipe e gestão de proje
 
 ## Do Deploy
 
+### Instalação do XAMPP
+
 O primeiro passo, o sistema precisa roda em algum servidor local com Apache, MySQL, PHP.
 
 O XAMPP é uma boa opção e vai facilitar muito o processo já que ele conta com todas as funcionalidades necessarias.
@@ -96,38 +98,33 @@ Faça a instalação de acordo com seu sistema operacional. Após a instalação
 | ├── webalizer   | DIR    | 25/11/2024 | 20:24  |
 | └── webdav      | DIR    | 25/11/2024 | 20:19  |
 <p>
+
 O XAMPP roda os projetos que estão dentro da pasta **`htdocs`**
 <p>
 
-A pasta do nosso projeto chama `tiodupetservice_web`.
+### Como rodar o projeto
+
+Para rodar o projeto, salve todos os arquivo na pasta informada.
+
+- A pasta do nosso projeto chama `tiodupetservice_web`.
+
+- No Windows, o projeto fica no seguinte endereço: `C:\xampp\htdocs\tiodupetservice_web`
+
+- Execute o XAMPP e Start os módulos Apache e MySQL 
+
+O ultimo passo inicia o servidor local e o projeto já 
+pode ser iniciado pelo seu navegador preferido pelo 
+seguinte endereço: http://localhost/tiodupetservice_web/
 <p>
+Agora falta configurar o banco de dados.
 
-No Windows o projeto fica no seguinte endereço: `C:\xampp\htdocs\tiodupetservice_web`
-<p>
-
-Estrutura do Projeto
-Contribuição
-Licença
-Funcionalidades
-Liste as principais funcionalidades do sistema:
+### Configuração do banco de dados
 
 
-Como Executar o Projeto
-Instruções para configurar e executar o projeto localmente:
 
-Clone o repositório:
-
-bash
-Copiar código
-git clone https://github.com/SeuUsuario/SeuProjeto.git
-Instale as dependências necessárias (se houver):
 
 Requisitos do sistema: Apache, PHP, MySQL.
-Instalação de pacotes adicionais (se necessário):
-bash
-Copiar código
-composer install
-npm install
+
 Configure o banco de dados:
 
 Importar o arquivo database.sql localizado na pasta /sql.
@@ -139,41 +136,3 @@ Copiar código
 php -S localhost:8000
 Acesse o sistema no navegador:
 http://localhost:8000
-
-Estrutura do Projeto
-Explique como os arquivos e diretórios estão organizados:
-
-plaintext
-Copiar código
-.
-├── assets/
-│   ├── css/
-│   ├── js/
-│   └── images/
-├── config/
-├── sql/
-├── templates/
-├── index.php
-└── README.md
-Descrição dos diretórios
-assets/: Arquivos estáticos (CSS, JS, imagens).
-config/: Arquivos de configuração do sistema.
-sql/: Scripts de banco de dados.
-templates/: Layouts e páginas reutilizáveis.
-Contribuição
-Gostaria de contribuir com melhorias? Siga os passos abaixo:
-
-Faça um fork do projeto.
-Crie um branch para sua funcionalidade:
-bash
-Copiar código
-git checkout -b feature/SuaFuncionalidade
-Faça um commit das suas alterações:
-bash
-Copiar código
-git commit -m "Descrição da alteração"
-Envie para o branch principal:
-bash
-Copiar código
-git push origin feature/SuaFuncionalidade
-Abra um Pull Request.
