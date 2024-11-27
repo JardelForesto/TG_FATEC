@@ -245,8 +245,12 @@ Agora, basta configurar o banco de dados para completar a instalação.
 
 ### Configuração do banco de dados
 
-Configure o banco de dados:
+Com o XAMPP ativo, siga os passos abaixo para configurar o banco de dados:
 
-Importar o arquivo database.sql localizado na pasta /sql.
-Atualizar as credenciais no arquivo config.php.
-Inicie o servidor:
+1. Acesse o endereço: `http://localhost/phpmyadmin/index.php`.
+
+2. Na interface do phpMyAdmin, selecione a opção Importar e escolha o arquivo `db_tiodupetservice.sql`, localizado na pasta /assets.
+
+3. Para testes em localhost, o banco de dados pode ser acessado sem credenciais específicas. Contudo, por questões de segurança, ao hospedar o projeto em um servidor, é imprescindível configurar o acesso ao banco de dados com credenciais devidamente cadastradas.
+
+4. Para ajustar as credenciais, edite o arquivo `conexaoAction.php`, localizado na pasta office.
