@@ -56,20 +56,146 @@ O projeto Tio Du Pet Service Web é uma aplicação web desenvolvida como Trabal
 
 O propósito principal é desenvolver uma aplicação funcional que atenda aos requisitos específicos do cliente, 
 enquanto os alunos aprimoram habilidades técnicas, como desenvolvimento fullstack, modelagem de banco de dados e hospedagem, 
-além de competências interpessoais, como trabalho em equipe e gestão de projetos. 
+além de competências interpessoais, como trabalho em equipe e gestão de projetos.
+
+## Da Estrutura
+
+O projeto está estruturado da seguinte forma:
+
+### Estrutura do Projeto: TioDuPetService Web
+
+#### Raiz do Projeto
+- `agendamento.php`
+- `agendamentoAction.php`
+- `assets`
+- `header.php`
+- `index.php`
+- `office`
+- `politica_privacidade.php`
+- `processa_avaliacao.php`
+- `README.md`
+- `solicitarAvaliacao.php`
+
+#### Diretório: assets
+- `db_tiodupetservice.sql`
+- `mobile-navbar.js`
+- `style.css`
+
+#### Subdiretório: assets/images
+- `acomodacao1.jpg`
+- `acomodacao2.jpg`
+- `acomodacao3.jpg`
+- `ambiente-seguro.jpg`
+- `atividades - Copia.jpg`
+- `atividades.jpg`
+- `carousel`
+- `carousel3 - Copia.jpg`
+- `comentario1.jpg`
+- `comentario2.jpg`
+- `comentario3.jpg`
+- `creche_pet.jpg`
+- `equipe.jpg`
+- `hotel_pet - Copia.jpg`
+- `hotel_pet.jpg`
+- `LogoTioDu.png`
+- `LogoTioDu.svg`
+- `petsitter_pet - Copia.jpg`
+- `petsitter_pet.jpg`
+- `tiodumainimage.jpg`
+
+#### Subdiretório: assets/images/carousel
+- `carousel1.jpg`
+- `carousel2.jpg`
+- `carousel3.webp`
+
+#### Diretório: office
+- `avaliacaoAction.php`
+- `avaliacao_excluirAction.php`
+- `avaliacao_listar.php`
+- `bootstrap.bundle.min.js`
+- `calendar.php`
+- `calendar_agendamento_listar.php`
+- `calendar_agendar - Copia.php`
+- `calendar_agendar.php`
+- `calendar_agendarAction - Copia.php`
+- `calendar_agendarAction.php`
+- `calendar_atualizar_agenda.php`
+- `calendar_atualizar_agendaAction.php`
+- `calendar_cancelar_agenda.php`
+- `calendar_cancelar_agendaAction.php`
+- `calendar_consultar_financeiro.php`
+- `calendar_enviar_eventos_google.php`
+- `calendar_finalizar_agendaAction.php`
+- `calendar_get_events.php`
+- `calendar_get_pets.php`
+- `calendar_get_servicos.php`
+- `callback.php`
+- `cliente_atualizar.php`
+- `cliente_atualizarAction.php`
+- `cliente_cadastro.php`
+- `cliente_cadastroAction.php`
+- `cliente_excluir.php`
+- `cliente_excluirAction.php`
+- `cliente_listar.php`
+- `conexaoAction.php`
+- `credentials.json`
+- `lead_atualizar.php`
+- `lead_atualizarAction.php`
+- `lead_excluir.php`
+- `lead_excluirAction.php`
+- `lead_listar.php`
+- `login.php`
+- `login_activity.php`
+- `logout.php`
+- `main.php`
+- `office_footer.php`
+- `office_header.php`
+- `office_style.css`
+- `pet_adicionarClienteAction.php`
+- `pet_adicionarVeterinarioAction.php`
+- `pet_atualizar.php`
+- `pet_atualizarAction.php`
+- `pet_cadastro.php`
+- `pet_cadastroAction.php`
+- `pet_excluir.php`
+- `pet_excluirAction.php`
+- `pet_listar.php`
+- `servico_atualizar.php`
+- `servico_atualizarAction.php`
+- `servico_cadastro.php`
+- `servico_cadastroAction.php`
+- `servico_excluir.php`
+- `servico_excluirAction.php`
+- `servico_listar.php`
+- `token.php`
+- `usuario_cadastro.php`
+- `usuario_criar.php`
+- `veterinario_atualizar.php`
+- `veterinario_atualizarAction.php`
+- `veterinario_cadastro.php`
+- `veterinario_cadastroAction.php`
+- `veterinario_excluir.php`
+- `veterinario_excluirAction.php`
+- `veterinario_listar.php`
+
+#### Subdiretório: office/uploads
+- `pet_ (1).jpg`
+- `pet_ (2).jpg`
+- `pet_ (3).jpg`
+- `pet_ (...).jpg`
+
 
 
 ## Do Deploy
-
 ### Instalação do XAMPP
+Para rodar o sistema localmente, é necessário configurar um servidor local que inclua Apache, MySQL e PHP. O XAMPP é uma excelente opção, pois reúne todas as funcionalidades necessárias em um único pacote, facilitando o processo.
 
-O primeiro passo, o sistema precisa roda em algum servidor local com Apache, MySQL, PHP.
+Você pode baixar o XAMPP pelo site oficial: https://www.apachefriends.org/pt_br/index.html.
 
-O XAMPP é uma boa opção e vai facilitar muito o processo já que ele conta com todas as funcionalidades necessarias.
-
-O XAMPP pode ser baixado através do link: https://www.apachefriends.org/pt_br/index.html
-
-Faça a instalação de acordo com seu sistema operacional. Após a instalação a pasta raiz do XAMPP deve ter a seguinte estrutura:
+#### Passos para instalação:
+1. Acesse o link acima e baixe a versão compatível com o seu sistema operacional (Windows, macOS ou Linux).
+2. Execute o instalador e siga as instruções exibidas durante o processo.
+3. Após a instalação, verifique a estrutura da pasta raiz do XAMPP. Ela deve incluir subpastas como htdocs, apache, mysql, entre outras. Após a instalação a pasta raiz do XAMPP deve ter a seguinte estrutura:
 
 | Diretório       | Tipo   | Data       | Hora   |
 |-----------------|--------|------------|--------|
@@ -99,40 +225,28 @@ Faça a instalação de acordo com seu sistema operacional. Após a instalação
 | └── webdav      | DIR    | 25/11/2024 | 20:19  |
 <p>
 
-O XAMPP roda os projetos que estão dentro da pasta **`htdocs`**
+A pasta **`htdocs`** será o local onde os arquivos do sistema devem ser colocados, pois é a raiz acessada pelo servidor web.
 <p>
 
 ### Como rodar o projeto
 
-Para rodar o projeto, salve todos os arquivo na pasta informada.
+Para executar o projeto, siga os passos abaixo:
 
-- A pasta do nosso projeto chama `tiodupetservice_web`.
+Salve os arquivos na pasta correta:
 
-- No Windows, o projeto fica no seguinte endereço: `C:\xampp\htdocs\tiodupetservice_web`
+- A pasta do projeto deve ser chamada **`tiodupetservice_web`**.
+- No Windows, o projeto deve ser salvo no seguinte caminho: `C:\xampp\htdocs\tiodupetservice_web`
 
-- Execute o XAMPP e Start os módulos Apache e MySQL 
+- Execute o XAMPP e inicie os módulos Apache e MySQL clicando em **`Start`** para cada um.
 
-O ultimo passo inicia o servidor local e o projeto já 
-pode ser iniciado pelo seu navegador preferido pelo 
-seguinte endereço: http://localhost/tiodupetservice_web/
-<p>
-Agora falta configurar o banco de dados.
+Após os módulos estarem em execução, abra o navegador de sua preferência e acesse o projeto pelo endereço: `http://localhost/tiodupetservice_web/`<p>
+
+Agora, basta configurar o banco de dados para completar a instalação.
 
 ### Configuração do banco de dados
-
-
-
-
-Requisitos do sistema: Apache, PHP, MySQL.
 
 Configure o banco de dados:
 
 Importar o arquivo database.sql localizado na pasta /sql.
 Atualizar as credenciais no arquivo config.php.
 Inicie o servidor:
-
-bash
-Copiar código
-php -S localhost:8000
-Acesse o sistema no navegador:
-http://localhost:8000
